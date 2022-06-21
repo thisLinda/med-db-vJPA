@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: medication_db
+    username: medication_db
+    url: jdbc:mysql://localhost/medication_db
+logging:
+  level:
+    root: warn
+    '[com.lforlizzi]': debug
